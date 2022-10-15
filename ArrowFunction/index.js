@@ -25,3 +25,16 @@ document.getElementById("btn1").addEventListener("click", function () {
 document.getElementById("btn2").addEventListener("click", () => {
   document.getElementById("demo").innerHTML += "Hello2!";
 });
+
+var numbers = [1, 2, 3, 4, 5];
+const squares = numbers.map((n) => n * n); // for each any inside of the numeber run n*n
+document.write(squares);
+
+var evens = new Array(); //making empty array
+numbers.forEach((n) => {
+  if (n % 2 === 0) {
+    evens.push(n);
+  }
+});
+document.write("<br>");
+document.write(evens);
