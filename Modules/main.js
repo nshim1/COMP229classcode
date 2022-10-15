@@ -11,4 +11,4 @@ console.log(flag); //false
 touch(); // change to true
 console.log(flag); // true
 flag = false; // change to false
-console.log(flag); // error 왜?
+console.log(flag); // only "touch()" change it
